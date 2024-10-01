@@ -29,7 +29,7 @@ const Home = () => {
     if (id === 1) {
       navigate('/restaurant');
     } else if (id === 2) {
-      navigate('/cusin');
+      navigate('/cus');
     }
   };
 
