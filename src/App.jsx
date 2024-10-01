@@ -7,6 +7,7 @@ import Categories from './components/Categories'
 import Exploreby from './components/Exploreby'
 import { Route, Routes } from 'react-router-dom'
 import Restaurants from './components/Restaurants'
+import Cuisine from './components/Cuisine'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -18,6 +19,7 @@ function App() {
         <Route path="/" element={<Categories />} />
         <Route path="/explore" element={<Exploreby />} />
         <Route path="/restaurant" element={<Restaurants />} />
+        <Route path="/cus" element={<Cuisine />} />
     </Routes>
     </>
   )
